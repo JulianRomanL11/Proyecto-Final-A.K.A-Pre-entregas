@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilo.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <nav class="barra">
+            <a href="../index.html">Inicio</a>
+            <a href="./Contacto.html" class="active">Contacto</a>
+            <a href="./Nosotros.html">Nosotros</a>
+        </nav>
+
+    <h1 class="titulo">
+        Travel Experience 
+    </h1>
+    <h2 class="titulo">
+        Agencia de Viajes
+    </h2>
+    </header>
+    <main>
+        <form action="">
+            <div>
+                <label for="Name">Nombre</label>
+                <input type="text" name="name">
+            </div>
+            <br>
+            <div>
+                <label for="Surname">Apellido</label>
+                <input type="text" name="Surname">
+            </div>
+            <br>
+            <div>
+                <label for="Email">Email</label>
+                <input type="email" required name="Email" placeholder="Julian@Gmail.com">
+            </div>
+            <br>
+            <div>
+                <label for="Nac">Fecha de nacimiento</label>
+                <input type="date" name="nac">
+            </div>
+            <br>
+            <div>
+                <label for="Pais">Pais de nacimiento</label>
+                <select name="Pais" id="">
+                <option value="Arg">Argentina</option>
+                <option value="Uru">Uruguay</option>
+                <option value="Col">Colombia</option>
+                <option value="Col">Otro</option>
+            </select>
+            
+            <br>
+            <br>
+
+            <div>
+                <label for="sexo">Género</label>
+            </div>
+            <br>
+            <div class="genero">
+                <input type="radio" name="sexo" value="fem">Mujer
+                <input type="radio" name="sexo" value="hom">Hombre
+                <input type="radio" name="sexo" value="no bin">No Binario
+            </div>
+
+            <br>
+
+            </div>
+            <input type="submit" value="Enviar datos">
+            <input type="reset" value="Borrar datos">
+            <br>
+
+        </form>
+    </main>
+    <footer class="caja">
+        <a href="http://www.coderhouse.com" target="_blank">Ir a coderhouse</a>
+    </footer>
+</body>
+</html>

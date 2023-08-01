@@ -1,0 +1,120 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+
+body {background:url(./Imagenes/524353-airplane-landing.jpg);
+font-family:Georgia, 'Times New Roman', Times, serif;
+overflow: hidden;}
+
+.fondodubai{ 
+    background:url(./Imagenes/DubaiFoto.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.fondoparis{
+    background: url(./Imagenes/Torre\ Eiffel.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.fondoroma{
+    background: url(./Imagenes/Coliseo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.fondobarcelona{
+    background: url(./Imagenes/Sagrada\ Familia.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+h1,h2 {color:gold;
+text-align: center;
+font-size: 2rem;
+font-style: italic;}
+
+main {color: rgb(255, 255, 255);
+font-style: italic;
+font-size: 2rem;
+font-weight: bold;}
+
+a{text-decoration: none;
+    color: rgb(255, 255, 255);
+margin: 1;
+padding: 0;
+}
+
+footer{font-size: 1.5rem;
+font-style: normal;position: fixed;
+bottom: 0;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+.tamano{font-size: 3rem;
+color:gold;
+text-align: left;}
+
+ul{ padding: 20px;
+margin: 10px;}
+li{ padding: 10px;
+text-decoration: none;}
+
+a.active, a:hover{
+    background-color:gold;
+    color: white;
+}
+
+.barra{
+background-color:black;
+color: rgb(255, 255, 255);
+overflow: hidden;
+}
+
+.barra a{
+    float:left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5rem;
+
+}
+
+
+.nosotros{ font-size: 20px;
+text-align: center;
+position: relative;
+line-height: 1.5;
+}
+
+.caja{
+    background-color:rgba(0, 0, 0, 0.575);
+    width:fit-content;
+    margin: 12px;
+    padding: 10px;
+    border-radius: 35px 0px 35px 0px; 
+  -moz-border-radius: 35px 0px 35px 0px; 
+  -webkit-border-radius: 35px 0px 35px 0px; 
+  border: 2px solid #3cb837;
+  text-align: center;
+}
+
+.titulo{ 
+    background-color: rgba(0, 0, 0, 0.527);
+    padding: 10px;
+}
+.genero{
+    font-size: 1rem;
+}
