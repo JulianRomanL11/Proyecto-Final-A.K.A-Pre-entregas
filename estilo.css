@@ -76,17 +76,17 @@ a.active, a:hover{
     color: white;
 }
 
-.barra{
+.container-fluid{
 background-color:black;
 color: rgb(255, 255, 255);
 overflow: hidden;
 }
 
-.barra a{
+.container-fluid a{
     float:left;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 10px;
     text-decoration: none;
     font-size: 1.5rem;
 
